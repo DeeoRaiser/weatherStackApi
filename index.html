@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+        </script>
+</head>
+
+
+<body onload="deleteAll()">
+    <h1>www.weatherapi.com</h1>
+    <h2>Api access weatherapi</h2>
+    
+    <div class="search-container">
+        <label for="search"></label>
+        <input class="search-container__input" type="search" name="search" id="search" value="cordoba">
+        <button class="search-container__button" onclick="search()">Search</button>
+
+    </div>
+        
+
+    <div id="data-container" class="data-container hidde">
+        <div class="data-container__header">
+            <div id="city" class="data-container__city"></div>
+            <div id="date" class="data-container__date"></div>
+        </div>
+
+        <div class="data-body">
+            <div class="data-body__colum1">
+                <img id="icon" class="data-body__icon"
+                    src="">
+                <label class="data-body__descriptions" id="weather_descriptions"></label>
+            </div>
+
+            <div class="data-body__colum2">
+                <div class="data-body__temp" id="temp"></div>
+                <div class="data-body__feelslike" id="feelslike"></div>
+            </div>
+
+            <div class="data-body__colum3">
+                <label id="wind-label" class="wind-label">Wind:</label>
+                <div id="wind-div" class="wind-div"></div><br>
+
+                <label id="wind-dir-label" class="wind-dir-label">Wind Direction:</label>
+                <div id="wind-dir-div" class="wind-dir-div"></div><br>
+
+                <label id="humidity-label" class="humidity-label">Humidity:</label>
+                <div id="humidity-div" class="humidity-div"></div><br>
+
+                <label id="precip-label" class="precip-label">Precipitation:</label>
+                <div id="precip-div" class="precip-div"></div><br>
+
+                <label id="pressure-label" class="pressure-label">Pressure:</label>
+                <div id="pressure-div" class="pressure-div"></div><br>
+
+                <label id="uv-label" class="uv-label">UV Index:</label>
+                <div id="uv-index-div" class="uv-index-div"></div><br>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/scrypt.js"></script>
+</body>
+
+</html>

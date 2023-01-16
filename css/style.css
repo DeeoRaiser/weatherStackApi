@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+.hidde {
+  visibility: hidden;
+}
+
+.search-container {
+  padding: 0.8rem;
+}
+.search-container__input {
+  padding: 8px;
+}
+.search-container__button {
+  padding: 8px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #608094;
+  color: #d5dbdf;
+  border-radius: 8px;
+  padding: 2rem;
+  display: block;
+  width: 40rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.data-container__header {
+  text-align: center;
+}
+.data-container__city {
+  text-transform: capitalize;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+}
+.data-container__date {
+  font-size: 1.5rem;
+  padding-bottom: 1.4rem;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.data-body {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.data-body__colum1 {
+  align-items: center;
+}
+.data-body__icon {
+  width: 64px;
+  display: block;
+  border-radius: 6px;
+  margin-top: 1.2rem;
+}
+.data-body__descriptions {
+  display: block;
+  color: color-font;
+  text-transform: capitalize;
+  padding: 0.8rem;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.data-body__temp {
+  font-size: 2.8rem;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.data-body__feelslike {
+  font-size: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.data-body__colum1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.data-body__colum3 {
+  text-align: left;
+  width: 11rem;
+}
+.data-body__colum3 label {
+  text-transform: capitalize;
+  font-weight: 300;
+  padding: 0.2rem;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.data-body__colum3 div {
+  padding: 0.2rem;
+  display: inline;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #d5dbdf;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*# sourceMappingURL=style.css.map */
